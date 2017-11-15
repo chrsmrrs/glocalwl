@@ -1,6 +1,6 @@
 
 # Global Weisfeiler-Lehman Kernels ###
-Source code for our IEEE ICDM 2017 paper " [Glocalized Weisfeiler-Lehman Graph Kernels: Global-Local Feature Maps of Graphs](https://arxiv.org/abs/1703.02379) ".
+Source code for our IEEE ICDM 2017 paper "[Glocalized Weisfeiler-Lehman Graph Kernels: Global-Local Feature Maps of Graphs](https://arxiv.org/abs/1703.02379)".
 
 ## Compile
 Using `cmake` you can simply type `cmake cmake-build-debug`, otherwise (using `gcc`)
@@ -19,13 +19,13 @@ See [Benchmark Data Sets for Graph Kernels](http://graphkernels.cs.tu-dortmund.d
 ## Terms and conditions
 Please feel free to use our code. We only ask that you cite:
 
-		@inproceedings{Morris+2017,
-		    title={Glocalized Weisfeiler-Lehman Graph Kernels: Global-Local Feature Maps of Graphs},
-		    author={Christopher Morris and Kristian Kersting and Petra Mutzel},
-		    booktitle={IEEE International Conference on Data Mining (ICDM), 2017},
-		    pages={},
-		    year={2017}
-		}
+	@inproceedings{Morris+2017,
+	    title={Glocalized Weisfeiler-Lehman Graph Kernels: Global-Local Feature Maps of Graphs},
+	    author={Christopher Morris and Kristian Kersting and Petra Mutzel},
+	    booktitle={IEEE International Conference on Data Mining (ICDM), 2017},
+	    pages={},
+	    year={2017}
+	}
 
 
 
