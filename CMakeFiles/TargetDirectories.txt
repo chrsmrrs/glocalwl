@@ -1,0 +1,3 @@
+/home/morris/globalwl/CMakeFiles/rebuild_cache.dir
+/home/morris/globalwl/CMakeFiles/edit_cache.dir
+/home/morris/globalwl/CMakeFiles/globalwl.dir

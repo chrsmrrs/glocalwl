@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="globalwl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/morris/globalwl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/morris/globalwl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/morris/globalwl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="globalwl">
+				<Option output="/home/morris/globalwl/cmake-build-debug/globalwl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/morris/globalwl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 globalwl"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="globalwl/fast">
+				<Option output="/home/morris/globalwl/cmake-build-debug/globalwl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/morris/globalwl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 globalwl/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/morris/globalwl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/morris/globalwl/main.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/AuxiliaryMethods.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/AuxiliaryMethods.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/ColorRefinementKernel.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/ColorRefinementKernel.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/Graph.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/Graph.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/GraphletKernel.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/GraphletKernel.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/ShortestPathKernel.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/ShortestPathKernel.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/WeisfeilerLehmanFourLocal.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/WeisfeilerLehmanFourLocal.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/WeisfeilerLehmanThreeGlobal.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/WeisfeilerLehmanThreeGlobal.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/WeisfeilerLehmanThreeLocal.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/WeisfeilerLehmanThreeLocal.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/WeisfeilerLehmanTwoGlobal.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/WeisfeilerLehmanTwoGlobal.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/WeisfeilerLehmanTwoLocal.cpp">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/WeisfeilerLehmanTwoLocal.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/src/log_primes.h">
+			<Option target="globalwl"/>
+		</Unit>
+		<Unit filename="/home/morris/globalwl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
